@@ -13,10 +13,10 @@ public class CameraController : MonoBehaviour {
 
     void Start()
     {
-        Generator.getInstance().GenerateCity();
-        Camera.main.orthographicSize = (maxValueOrthographicSize - minValueOrthographicSize) / 2 + minValueOrthographicSize;
+        //Generator.getInstance().GenerateCity();
+       // Camera.main.orthographicSize = (maxValueOrthographicSize - minValueOrthographicSize) / 2 + minValueOrthographicSize;
     }
-
+    /*
     // Update is called once per frame
     void Update()
     {
@@ -67,4 +67,5 @@ public class CameraController : MonoBehaviour {
             }
         }
     }
+    */
 }

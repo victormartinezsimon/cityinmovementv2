@@ -243,7 +243,7 @@ public class Movement : MonoBehaviour {
 
             //recalculate another path
             m_mutex.WaitOne();
-            if (listPosition.Count < m_marginAskRoute && responseFromIA)
+            if (listPosition.Count < m_marginAskRoute && responseFromIA)//if we ask for a route 2 times, the 2 time, will fail because responsefromIA is false and only when becomes true, this if will be true
             {
                 getPath();
             }

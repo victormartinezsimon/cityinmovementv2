@@ -67,7 +67,6 @@ public class Generator : MonoBehaviour
     private GameObject m_parentCar = null;
     public bool debugMode = false;
     
-
     // Update is called once per frame
     void Update()
     {
